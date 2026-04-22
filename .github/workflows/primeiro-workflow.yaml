@@ -1,0 +1,9 @@
+name: primeiro- # nome técnico
+run-name: Primeiro Workflow # nome comum
+on: [push]
+jobs: 
+    build:
+        runs-on: macos-latest
+        steps: 
+            - name: Hello World
+              run: echo "Deu Bom!"
